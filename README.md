@@ -1,5 +1,3 @@
-# Training-pipeline
-
 # Pipeline Dự Đoán Doanh Số Bán Hàng Amazon
 
 ## Giới thiệu chung
