@@ -34,13 +34,6 @@ Dự án này triển khai một pipeline học máy end-to-end để dự đoá
    - Đăng ký mô hình để quản lý phiên bản
    - Giao diện người dùng tương tác để so sánh thí nghiệm
 
-### Điểm mới, sáng tạo
-
-- **Phát hiện rò rỉ dữ liệu tự động**: Pipeline cảnh báo về nguy cơ rò rỉ dữ liệu khi phát hiện các đặc trưng có thể phụ thuộc trực tiếp vào biến mục tiêu
-- **Phiên bản hóa tập dữ liệu**: Tạo mã nhận dạng dữ liệu bằng mã băm MD5 để theo dõi thay đổi trong dữ liệu nguồn
-- **Trực quan hóa toàn diện**: Tự động tạo biểu đồ hiệu suất và biểu đồ tầm quan trọng của đặc trưng
-- **Quản lý mô hình tích hợp**: Tất cả mô hình được tự động đăng ký với MLflow để dễ dàng triển khai
-
 ## Công nghệ sử dụng
 
 - **Python 3.11+**: Ngôn ngữ lập trình cốt lõi
@@ -52,13 +45,6 @@ Dự án này triển khai một pipeline học máy end-to-end để dự đoá
 - **joblib 1.3.2**: Lưu trữ mô hình
 - **Google Colab**: Môi trường thực thi trên đám mây
 - **ngrok**: Cho phép truy cập MLflow UI từ Colab
-
-### Đặc điểm nổi bật
-
-- **Tự động hóa cao**: Toàn bộ quy trình từ tiền xử lý đến đánh giá được thực hiện tự động
-- **Tích hợp MLflow sâu**: Mọi thí nghiệm đều được theo dõi và so sánh một cách trực quan
-- **Thân thiện với người dùng**: Thiết kế để dễ dàng sử dụng mà không cần hiểu biết sâu về MLflow
-- **Khả năng mở rộng**: Dễ dàng thêm mô hình mới hoặc các bước tiền xử lý mới
 
 ## Hướng dẫn cài đặt môi trường và chạy code
 
